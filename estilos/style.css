@@ -1,22 +1,86 @@
 @charset "UTF-8";
 
 * {
+    margin: 0px;
     padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: #bcc9cb57;
 }
 
 header {
-    
-    width: 100vw;
-    padding: 10px;
-    background-color: darkgray;
-    text-align: center;
-    border-radius: 10px;
+    background-color: #a17933d3;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center
+
 }
 
 header > h1 {
-    color: rgb(30, 29, 29);
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
 }
 
 section {
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    line-height: 2em;
+    padding-left: 20px;
+    font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: #e3f3f8ef;
+}
+
+section.imagem {
+    background-color: #cfad74;
+    color: rgb(8, 8, 8);
+    box-shadow: inset 6px 6px 13px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p, q {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(169, 169, 169, 0.574);
+}
+
+section#img01 {
+    background-image: url(../imagens/lentes_do_sertao.png);
+    background-position: center center;
+}
+
+section#img02 {
+    background-image: url(../imagens/caatinga.jpg);
+    background-position: right center;
+}
+
+section#img03 {
+    background-image: url(../imagens/mulher.jpg);
+    background-position: left center;
+}
+
+button.botao {
+    height: 50vh;
     
+}  
+
+
+footer {
+    background-color: #966729cc;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
 }
