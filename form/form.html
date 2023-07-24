@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="../estilos/form.css">
 </head>
 <body>
-    <h1>Vamos testar seu conhecimento sobre a região nordeste do brasil</h1>
-    <h3>Responda o questionario a seguir:</h3>
+    <header>
+        <h1>Vamos testar seu conhecimento sobre a região nordeste do brasil</h1>
+        <h3>Responda o questionario a seguir:</h3>
+    </header>
 
     <form action="cadastro.php" method="get" autocomplete="on">
         <P>
-            <label for="imen">Por quantos estados é composto a região Nordeste</label>
-            <textarea name="msg" id="imen" cols="30" rows="10"></textarea>
+            <label for="imen">Por quantos estados é composto a região Nordeste?</label><br>
+            <textarea name="msg" id="imen" cols="60" rows="5" class="area"></textarea>
         </P>
 
         <p>
-            <label for="imen">Qual o clima predominante da região nordeste brasileira</label>
-            <textarea name="msg" id="imen" cols="30" rows="10"></textarea>
+            <label for="imen">Qual o clima predominante da região nordeste brasileira?</label><br>
+            <textarea name="msg" id="imen" cols="60" rows="5"></textarea>
         </p>
 
         <fieldset>
@@ -77,18 +80,23 @@
         </fieldset>
 
         <p>
-            <label for="imen">Quais os aspectos culturais da região Nordeste?</label>
-            <textarea name="msg" id="imen" cols="30" rows="10"></textarea>
+            <label for="imen">Quais os aspectos culturais da região Nordeste?</label><br>
+            <textarea name="msg" id="imen" cols="60" rows="5"></textarea>
         </p>
 
         <p>
-            <label for="imen">Quais os lugares que você conehce da região nordeste?</label>
-            <textarea name="msg" id="imen" cols="30" rows="10"></textarea>
+            <label for="imen">Quais os lugares que você conehce da região nordeste?</label><br>
+            <textarea name="msg" id="imen" cols="60" rows="5"></textarea>
         </p>
 
         <p>
-            <label for="imen">Quais lugares da regão nordeste você gostaria de conhecer?</label>
-            <textarea name="msg" id="imen" cols="30" rows="10"></textarea>
+            <label for="imen">Quais lugares da regão nordeste você gostaria de conhecer?</label><br>
+            <textarea name="msg" id="imen" cols="60" rows="5"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
     </form>
     
