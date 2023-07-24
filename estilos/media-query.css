@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    html, body {
+        background-image: linear-gradient(to top, #b7f1ef, #b890d6);
+    }
+
+    button.botao {
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 992px) {
+   html, body {
+    background-image: linear-gradient(to left, #b890d6, #b7f1ef);
+   }
+
+   body > h3 {
+    margin-left: 70vh;
+    font-weight: bolder;
+   }
+   section.normal > p {
+    line-height: 1.3em;
+   }
+
+   section.imagem > p,q {
+    line-height: 1.3em;
+   }
+
+   button.botao {
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    font-weight: bolder;
+    transform: translateX(140vh);
+    }
+}
