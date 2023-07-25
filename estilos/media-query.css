@@ -5,26 +5,39 @@
         background-image: linear-gradient(to top, #b7f1ef, #b890d6);
     }
 
+    section {
+        padding-top: 20px;
+        line-height: 1.2em;
+        font-size: 2.7vw;
+    }
+
     button.botao {
         cursor: pointer;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1000px) {
    html, body {
     background-image: linear-gradient(to left, #b890d6, #b7f1ef);
-   }
+    width: 100vw;
+}
 
    body > h3 {
     margin-left: 70vh;
     font-weight: bolder;
    }
+
+   section {
+    padding-top: 10px;
+    font-size: 1.7em;
+   }
+
    section.normal > p {
-    line-height: 1.3em;
+    line-height: 1.7em;
    }
 
    section.imagem > p,q {
-    line-height: 1.3em;
+    line-height: 1.7em;
    }
 
    button.botao {
@@ -32,6 +45,33 @@
     cursor: pointer;
     border: 1px solid lightgrey;
     font-weight: bolder;
-    transform: translateX(140vh);
+    margin-bottom: 15px;
+    transform: translateX(110vh);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        width: 104.5vw;
+        margin-right: 1px;
+    }
+
+    section > p,q {
+        line-height: 1.2em;
+        font-size: .7em;
+    }
+    
+    body > h3 {
+        margin-left: 70vh;
+        font-weight: bolder;
+    }
+
+    button.botao {
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px solid lightgrey;
+        font-weight: bolder;
+        margin-bottom: 15px;
+        transform: translateX(132vh);
     }
 }

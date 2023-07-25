@@ -10,7 +10,6 @@
 
 
 html, body {
-    min-height: 100vh;
     background-color: #bcc9cb57;
     margin-left: 3px;
     margin-right: 3px;
@@ -41,11 +40,11 @@ header > h1 {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 20vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     line-height: 2em;
-    padding-left: 20px;
-    font-size: 3.5vw;
+    padding-left: 15px;
+    font-size: 5vw;
 }
 
 section > p {
@@ -69,13 +68,13 @@ section.imagem {
     background-size: cover;
     background-attachment: fixed;
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 
 }
 
 section.imagem > p, q {
     display: inline-block;
-    padding: 5px;
+    padding: 2px;
     border-radius: 10px;
     background-color: rgba(13, 13, 13, 0.408);
     color: rgba(255, 255, 255, 0.835);
@@ -103,12 +102,12 @@ button.botao {
     margin-top: 5px;
     margin-bottom: 5px;
     background-color: rgb(192, 190, 188);
-    border-radius: 5px;
+    border-radius: 7px;
     
 }  
 
 button.botao:hover {
-    background-color: aliceblue;
+    background-color: rgb(193, 221, 245);
     
 }
 
